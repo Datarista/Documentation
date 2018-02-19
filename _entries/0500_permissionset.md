@@ -5,9 +5,11 @@ parent-id: documentation
 number: 500
 title: Create a Permission Set
 ---
->**Type** "permission sets" into the quick find / search box. **Click** on the **Manage Users** -> **Permission Sets** link.
-
+>**Type** "permission sets" into the quick find / search box. **Click** on the **Manage Users** -> **Permission Sets** link.  
+>**Classic:**  
 ![Permission Set Quick Find]({{ site.baseurl }}/img/500/permission_sets.png)  
+**Lightning:**  
+![Permission Set Quick Find]({{ site.baseurl }}/img/500/1.41permissionset.jpg)  
 
 >**Click** the **New** button.
 

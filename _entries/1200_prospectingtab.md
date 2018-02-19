@@ -5,6 +5,8 @@ parent-id: documentation
 number: 1200
 title: Enable Prospecting Tab (Optional)
 ---
+>**Classic Only**  
+{:.warning}
 
 >**Click** the **"+"** on the top right of the Salesforce navigation  
 **Click** "Customize My Tabs"  

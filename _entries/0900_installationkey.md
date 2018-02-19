@@ -5,13 +5,20 @@ parent-id: documentation
 number: 900
 title: Authenticate Installation Key
 ---
->**Click** the **+** on the top right of the SalesForce navigation.
+>**Classic:**  
+**Click** the **+** on the top right of the SalesForce navigation.
 
 ![Click the Plus]({{ site.baseurl }}/img/900/click_the_plus.png)  
 
 >Under **All Tabs** scroll down and **Click** the **Datarista Install** link.
 
 ![Click Datarista Install]({{ site.baseurl }}/img/900/click_datarista_install.png)
+
+>**Lightning:**  
+**Click** the App Launcher icon on the top left of the menu bar.  
+**Click** the **Data App** link.
+
+![Click the Plus]({{ site.baseurl }}/img/900/1.9install.jpg)  
 
 >Enter the **installation key** from the order email.  
 **Click** the **Save** button.

@@ -5,9 +5,11 @@ parent-id: documentation
 number: 800
 title: Configure Connected App Permissions
 ---
->**Search** for "connected apps" and then **click Manage Apps** -> **Connected Apps**
-
+>**Search** for "connected apps" and then **click Manage Apps** -> **Connected Apps**  
+>**Classic:**  
 ![Connected Apps Quick Find]({{ site.baseurl }}/img/800/click_connected_apps.png)  
+**Lighning:**  
+![Connected Apps Quick Find]({{ site.baseurl }}/img/800/1.8quickfind.jpg)  
 
 >**Click** the **Edit** link for the appropriate connected app. Example: Datarista MCH Schools
 
