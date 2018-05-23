@@ -10,7 +10,7 @@ title: Authenticate Installation Key
 
 ![Click the Plus]({{ site.baseurl }}/img/900/click_the_plus.png)  
 
->Under **All Tabs** scroll down and **Click** the **Datarista Install** link.
+>Under **All Tabs** scroll down and **Click** the **[Provider] Install** link.
 
 ![Click Datarista Install]({{ site.baseurl }}/img/900/click_datarista_install.png)
 

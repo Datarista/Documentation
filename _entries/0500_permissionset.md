@@ -24,11 +24,11 @@ title: Create a Permission Set
 
 ![Object Settings]({{ site.baseurl }}/img/500/object_settings.png)
 
->The following steps will have to be repeated for all custom objects.
+>The following steps will have to be repeated for __all__ custom objects.  Please talk to your sales rep to obtain the list of custom objects.  
 {:.warning}  
 
->Either search for your custom object (example: MCH_Schools) or scroll through the list of all **Objects** to find it.  
->Select the custom object associated with the package (example: MCH_Schools)
+>Scroll through the list of **Objects** to find the custom objects.  
+>Select the custom object associated with the package.  
 
 ![Object Search]({{ site.baseurl }}/img/500/custom_object.png)  
 

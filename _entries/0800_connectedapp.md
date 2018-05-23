@@ -11,7 +11,7 @@ title: Configure Connected App Permissions
 **Lighning:**  
 ![Connected Apps Quick Find]({{ site.baseurl }}/img/800/1.8quickfind.jpg)  
 
->**Click** the **Edit** link for the appropriate connected app. Example: Datarista MCH Schools
+>**Click** the **Edit** link for the appropriate connected app. Example: Datarista
 
 ![Click Edit]({{ site.baseurl }}/img/800/click_edit_connected_app.png)
 
