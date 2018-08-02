@@ -27,7 +27,7 @@ Name the process (i.e. Set Source on *{Account|Contact|Lead}* to *{picklist valu
   ・    Criteria Name: **Custom Object Source = Y** (This name is not important)  
   ・    Criteria for Executing Actions: **Conditions are met**  
   ・    Set Conditions: Choose the Source field.  
-      ・    Field = Source field  
+      ・    Field = Source   
       ・    Operator = Equals  
       ・    Type = String  
       ・    Value = Y  
