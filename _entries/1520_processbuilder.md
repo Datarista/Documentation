@@ -16,7 +16,7 @@ Name the process (i.e. Set Source on *{Account|Contact|Lead}* to *{picklist valu
 ![Process_Builder_NewProcess]({{ site.baseurl }}/img/1500/Process_Builder_NewProcess.png)  
 
 >Click **Add Object**  
-  ・    Object: Choose Account|Contact|Lead custom object depending on which process is being built (ex, *ABC_Account, ABC_Contact, ABC_Contact_Lead*)  
+  ・    Object: Choose **Custom_Account, Custom_Contact,** or **Custom_Contact_Lead** object depending on which process is being built (ex, *ABC_Account, ABC_Contact, ABC_Contact_Lead*)  
   ・    Start the process **only when a record is created**    
   ・    Click **Save**  
 
@@ -41,7 +41,7 @@ Name the process (i.e. Set Source on *{Account|Contact|Lead}* to *{picklist valu
   ・    Action Type: **Update Records**  
   ・    Action Name: **Update Source**  
   ・    Record Type: **Select a record related to the (custom object)**  
-  ・    Choose Account, Contact, or Lead depending on process being built.  (Choose **Account**.  Do not choose **Account >**)    
+  ・    Choose **Account | Contact | Lead** depending on process being built. Do not choose **Account > | Contact > | Lead >**  
   ・    Click **Choose**  
 
 ![Process_Builder_SelectRecord]({{ site.baseurl }}/img/1500/Process_Builder_SelectRecord.png)  
