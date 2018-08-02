@@ -40,7 +40,7 @@ title: Create a Permission Set
 
 ![Click Checkboxes Save]({{ site.baseurl }}/img/500/check_all.png)
 
->For custom objects with many fields, this step is tedious. For more advanced users copy and paste the following Javascript into your browsers developer's console:    
+>For custom objects with many fields, this step is tedious. For more advanced users, copy and paste the following Javascript into your browsers developer's console.  This javascript code will only work in Salesforce Classic.  If you are using lightning, please switch to Classic mode to execute.
 {:.warning}
 ```javascript
 var allInputs = document.getElementsByTagName("input");  
