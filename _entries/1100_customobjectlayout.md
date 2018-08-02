@@ -9,8 +9,10 @@ title: Configure Custom Object Layouts
 >Classic:  
 **Type "objects"** into the quick find / search box. **Click** on the **Create** -> **Objects** link.
 ![Objects Quick Find]({{ site.baseurl }}/img/1100/search_for_objects.png)  
+<br>
 **Click** the **custom object** associated with the account (example: MCH_School)
-![Click Custom Object]({{ site.baseurl }}/img/1100/click_custom_object.png)
+![Click Custom Object]({{ site.baseurl }}/img/1100/click_custom_object.png)  
+<br>
 Scroll down to "Page Layouts", **click "Edit"** next to the only layout listed.
 ![Click Edit On Layout]({{ site.baseurl }}/img/1100/click_edit_page_layout.png)  
 
