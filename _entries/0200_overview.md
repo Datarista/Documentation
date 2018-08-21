@@ -9,4 +9,5 @@ title: Overview
 **What you'll need:**
 Package Installation URL and Install Key from order email  
 Salesforce user with Admin permissions  
+Salesforce Professional with Bulk API or higher edition  
 **Estimated time to complete:** 15-20 minutes
