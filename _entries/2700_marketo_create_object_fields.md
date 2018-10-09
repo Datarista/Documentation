@@ -7,7 +7,7 @@ title: Create Marketo Custom Fields
 ---
 
 
->Using the Customer Portal's **Instance Fields** validation tool as a reference, you will now create the fields on the custom objects in Marketo.  
+>Using the Customer Portal's **Instance Fields** validation tool as a reference, you will now create the fields on the custom objects in Marketo.  Marketo has a limit of 47 custom fields per object.
 In the Customer Portal, click on a custom object name to expand the list of fields.  
 
 
@@ -21,7 +21,7 @@ In the Customer Portal, click on a custom object name to expand the list of fiel
 
 ![test image]({{ site.baseurl }}/img/2700/marketo_automatic_fields.jpg)
 
->Do not Approve the object until the fields have been created.    
+>Do not Approve the object until you are finished creating the fields.    
 {:.warning}
 
 >In Marketo, Click **Fields**  
@@ -38,7 +38,7 @@ Click **New Field**
 
 ![test image]({{ site.baseurl }}/img/2700/leadId_field.png)
 
->Create the rest of the fields  
+>Create the rest of the fields using the Customer Portal's Instance Fields tool as a guide for API names and Types.
 
 >API Name is **case sensitive**  
 >Do not mark any fields other than **leadId** as a dedupe field.    
