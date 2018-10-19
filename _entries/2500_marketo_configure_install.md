@@ -30,5 +30,5 @@ In Admin Menu, select **Configure Install**
 >In the REST API section, use the Endpoint value as the REST URL and the Identity value as the Identity URL  
 
 ![test image]({{ site.baseurl }}/img/2500/rest_url.jpg)  
-
+>Click **Save Config**  
 >After successfully configuring the installation values, you will have access to the Custom Object validation tool.

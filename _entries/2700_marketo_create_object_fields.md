@@ -13,7 +13,8 @@ In the Customer Portal, click on a custom object name to expand the list of fiel
 
 >The **status** will show with errors until the fields are created and the object is approved.  
 {:.warning}
-
+>Do not approve the object until you are finished creating the fields.    
+{:.warning}
 ![test image]({{ site.baseurl }}/img/2700/instance_fields_fields.jpg)
 
 
@@ -21,16 +22,13 @@ In the Customer Portal, click on a custom object name to expand the list of fiel
 
 ![test image]({{ site.baseurl }}/img/2700/marketo_automatic_fields.jpg)
 
->Do not Approve the object until you are finished creating the fields.    
-{:.warning}
-
->In Marketo, Click **Fields**  
+>In Marketo, Click on **Marketo Custom Objects** in the sidebar Admin menu, and then Click **Fields** at the top  
 Click **New Field**   
 
 ![test image]({{ site.baseurl }}/img/2700/click_fields.jpg)
 
 
->Create the **leadId** field that will link the custom object to the **Person** object.  The Person object was formerly called the Lead object.
+>Create the **leadId** field that will link the custom object to the **Person** object.  The Person object was formerly called the Lead object.  This step needs to be repeated for each custom object created.  
 
 >API Name is **case sensitive**  
 >Be sure to use **Data Type: link** and **Dedupe Field: Yes**  

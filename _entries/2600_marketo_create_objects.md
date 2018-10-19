@@ -6,7 +6,7 @@ number: 2600
 title: Create Marketo Custom Objects
 ---
 
->Using the Customer Portal's **Instance Fields** validation tool as a reference, create the custom objects in Marketo.  
+>The Customer Portal’s **Instance Fields** validation tool gives you the names of the custom objects that need to be created in Marketo.   
 
 ![test image]({{ site.baseurl }}/img/2600/instance_fields_objects.jpg)
 
@@ -15,7 +15,8 @@ title: Create Marketo Custom Objects
 
 ![test image]({{ site.baseurl }}/img/2600/admin_custom_objects.jpg)
 
-Enter the exact API Name from the Invitation email in the Create Object form.  Enter a Display Name and Plural Name.  
+Enter the API Name from the Invitation email in the Create Object form.  The Invitation email has the field name ending with "_c." The Display Name should be entered without the "_c" and it will get automatically added to the API Name Field.  
+Enter a Plural Name.  
 Optionally, enter a description.  
 Set **Show in Lead Detail** to **SHOW**  
 Click **Save**  
