@@ -6,7 +6,7 @@ number: 900
 title: Authenticate Installation Key
 ---
 >The Salesforce user that enters the install key and authenticates is the one used for Salesforce API access.  
-As a result, all records created or modified by the integration will be **created or modified by the user who authenticates the installion key**.   
+As a result, all records created or modified by the integration will be **created or modified by the user who authenticates the installation key**.   
 {:.alert}
 
 >**Classic:**  
