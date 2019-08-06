@@ -3,7 +3,7 @@ sectionclass: h3
 sectionid: iprestriction
 parent-id: documentation
 number: 1530
-title: Salesforce IP Restrictions
+title: Salesforce IP Restrictions (Optional)
 ---
 >Salesforce has a setting that will restrict users from logging in from outside trusted IP address ranges.  If this setting is enabled, you may encounter an "Authentication Failed" error during installation.  
 
