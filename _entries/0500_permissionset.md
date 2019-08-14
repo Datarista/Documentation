@@ -28,7 +28,7 @@ title: Create a Permission Set
 {:.warning}  
 
 >Scroll through the list of **Objects** to find the custom objects.  
->Select the custom object associated with the package.  
+>Select the custom object associated with the package by clicking on the Object Name link.
 
 ![Object Search]({{ site.baseurl }}/img/500/custom_object.png)  
 

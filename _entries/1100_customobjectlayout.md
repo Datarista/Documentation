@@ -28,7 +28,7 @@ Scroll down to "Page Layouts", **click "Edit"** next to the only layout listed.
 
 >Any fields can be selected, however only fields the customer has licensed in their order will be populated.  
 {:.alert}
->**Click "Save"**  
+>**Click Save**  
 
 >Repeat these steps for any other custom objects, most likely Contact
 {:.warning}
