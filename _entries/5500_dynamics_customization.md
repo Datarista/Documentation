@@ -17,8 +17,8 @@ title: Configure Forms and Views
 ![Account]({{ site.baseurl }}/img/5500/dynamics_account.png)
 
 > Click on **Forms** to expand the form list.    
-> Click on the form named **Account**.
-> **Note that the instance may have been customized to use a different forms, so check that this is the desired form.**
+> Click on the form named **Account**.    
+> **Note that the instance may have been customized to use different forms, so verify this is the desired form.**
 
 ![Account Form]({{ site.baseurl }}/img/5500/dynamics_account_form.png)
 
@@ -47,11 +47,11 @@ title: Configure Forms and Views
 
 ![Web Resource Lookup]({{ site.baseurl }}/img/5500/dynamics_web_resource_lookup.png){:height="50%" width="50%"}
 
-> Enter **\*get_match\*** (include asterisks) in the *Search* input to locate the "get_match.html" resource.
+> Enter **\*get_match\*** (include asterisks) in the **Search** input to locate the "get_match.html" resource.
 
 ![Web Resource Search]({{ site.baseurl }}/img/5500/dynamics_web_resource_search.png){:height="50%" width="50%"}
 
-> For **Name** and **Label** enter "get_match". Note that this label will not be shown to the user.
+> For **Name** and **Label** enter "get_match". Note that this label will not be shown to the user.    
 > Check **Pass record object-type and unique identifier as parameters**.
 
 ![Web Resource Name]({{ site.baseurl }}/img/5500/dynamics_web_resource_general.png){:height="50%" width="50%"}
@@ -61,7 +61,7 @@ title: Configure Forms and Views
 
 ![Web Resource Format]({{ site.baseurl }}/img/5500/dynamics_web_resource_format.png){:height="50%" width="50%"}
 
-> **Scroll down**. **Uncheck "Display border"**
+> Scroll down. Uncheck **Display border**
 
 ![Web Resource Format]({{ site.baseurl }}/img/5500/dynamics_web_resource_format2.png){:height="50%" width="50%"}
 
@@ -77,8 +77,9 @@ title: Configure Forms and Views
 
 ![Custom Account Form List]({{ site.baseurl }}/img/5500/dynamics_custom_account_form_list.png)
 
-> Drag and drop fields from the right to the left. This step may not be necessary if there is a default form provided in the solution.
-> This form determines what fields are shown to a user viewing details of the associated custom entity.
+> **Drag and drop fields from the right to the left.**    
+> This step may not be necessary if there is a default form provided in the solution.    
+> This form determines what fields are shown to a user viewing details of the associated custom entity.    
 
 ![Custom Account Form]({{ site.baseurl }}/img/5500/dynamics_custom_account_form.png)
 
