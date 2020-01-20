@@ -69,10 +69,39 @@ title: Configure Forms and Views
 
 > Drag the web resource to a place below the custom entity section above.    
 
+![Account Form Web Resource]({{ site.baseurl }}/img/5500/dynamics_account_form_web_resource.png)
+
+> Navigate to the **Custom Account** entity. It will be named **NNN_Account**, where NNN is an abbreviation for the data provider.
+> Click on **Forms** to expand the form list.    
+> Double click on the form with a Form Type of **Main**.
+
+![Custom Account Form List]({{ site.baseurl }}/img/5500/dynamics_custom_account_form_list.png)
+
+> Drag and drop fields from the right to the left. This step may not be necessary if there is a default form provided in the solution.
+> This form determines what fields are shown to a user viewing details of the associated custom entity.
+
+![Custom Account Form]({{ site.baseurl }}/img/5500/dynamics_custom_account_form.png)
+
+> Click **Save and Close** when done.
+
+> Navigate back to the **Custom Account** entity. It will be named **NNN_Account**, where NNN is an abbreviation for the data provider.
+> Click on **Views** to expand the view list.    
+> Double click on the view with a name of **Active NNN_Accounts**/ type of **Default Public View**.
+
+![Custom Account View List]({{ site.baseurl }}/img/5500/dynamics_custom_account_view_list.png)
 
 
-> Repeat the above steps for "Contact".
+> You can add/remove columns, change the order, etc. Fields shown here are a high level view of the object, shown on the parent Account page.
+> This step may not be if there is a default view provided in the solution.
+![Custom Account View]({{ site.baseurl }}/img/5500/dynamics_custom_account_view.png)
 
+> Click **Save and Close** when done.
 
-> Repeat the above steps for "Lead".
-> Note that Leads will require that two seconds, one for account-level, and one for contact-level, be dragged into the form.
+> Repeat the above steps for **Contact**. You will need to start by navigating to the Contact entity.
+
+![Contact Form]({{ site.baseurl }}/img/5500/dynamics_contact_form.png)
+
+> Repeat the above steps for **Lead**. You will need to be start by navigating to the Lead entity.
+> Note that Leads will require that two subgrids, one for account-level, and one for contact-level, be dragged into the Lead form.
+
+![Lead Form]({{ site.baseurl }}/img/5500/dynamics_lead_form.png)
