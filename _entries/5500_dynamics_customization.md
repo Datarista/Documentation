@@ -106,3 +106,8 @@ title: Configure Forms and Views
 > Note that Leads will require that two subgrids, one for account-level, and one for contact-level, be dragged into the Lead form.
 
 ![Lead Form]({{ site.baseurl }}/img/5500/dynamics_lead_form.png)
+
+> Publish customizations to make them available to users.    
+> Click **Publish All Customizations**
+
+![Publish Customizations]({{ site.baseurl }}/img/5500/dynamics_publish.png)
