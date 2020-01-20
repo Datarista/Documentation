@@ -6,6 +6,8 @@ number: 1100
 title: Configure Custom Object Layouts
 ---
 
+>**Note:** The Salesforce package may already include a layout.  In this case, the step for configuring the custom object layouts has already been done for you.  If you want to further customize your layout by adding, removing, or rearranging fields, you can use the steps below as a guide.
+
 >Classic:  
 **Type "objects"** into the quick find / search box. **Click** on the **Create** -> **Objects** link.
 ![Objects Quick Find]({{ site.baseurl }}/img/1100/search_for_objects.png)  
