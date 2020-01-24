@@ -21,3 +21,4 @@ Click **Save**
 ![test image]({{ site.baseurl }}/img/2600/create_object.jpg)
 
 >Repeat for all objects listed in the Instance Fields validation tool.
+{:.warning}

@@ -15,4 +15,4 @@ title: Salesforce IP Restrictions (Optional)
 >More information on how to set trusted IP ranges can be found on Salesforce Help:  
 <a href="https://help.salesforce.com/articleView?id=admin_loginrestrict.htm&type=5">Restrict Where and When Users Can Log In to Salesforce</a>  
 <a href="https://help.salesforce.com/articleView?id=security_networkaccess.htm&type=5">Set Trusted IP Ranges for Your Organization</a>  
-{:.warning}
+{:.tip}

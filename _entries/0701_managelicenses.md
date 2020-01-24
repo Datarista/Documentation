@@ -9,7 +9,7 @@ title: Manage Licenses
 {:.tip}
 
 >You will need to give each user a license in order for the user to access the package. If you do not assign the user in Manage Licenses, they will not be able to access the package, and an error message will not display.  They will simply not see any of the packages components.  Adding a license will not automatically assign the permission set.  You must also assign each user to the permission set.
-{:.warning}
+{:.alert}
 
 >**Type** "installed packages" into the quick find / search box. **Click** on the **Build** -> **Installed Packages** link.
 

@@ -45,3 +45,4 @@ for(var i =0, max = allInputs.length; i < max; i++) {
 
 >Repeat the above steps for all other custom objects associated with the package that is being installed.  
 >Other custom objects may include custom contact or lead objects.
+{:.warning}

@@ -50,4 +50,6 @@ Name the process (i.e. Set Source on *{Account|Contact|Lead}* to *{picklist valu
 
 >Click **Save**  
 Review your entries, and click **Activate**  
-Repeat the Process Builder instructions to create processes for Accounts, Contacts, and Leads  
+
+>Repeat the Process Builder instructions to create processes for Accounts, Contacts, and Leads  
+{:.warning}

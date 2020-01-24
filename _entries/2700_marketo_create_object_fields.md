@@ -11,9 +11,9 @@ title: Create Marketo Custom Fields
 In the Customer Portal, click on a custom object name to expand the list of fields.  
 
 
->The **status** will show with errors until the fields are created and the object is approved.  
-{:.warning}
->Do not approve the object until you are finished creating the leadId field.
+>The **Field Status** will show with errors until the fields are created and the object is approved.  
+{:.tip}
+>Do not approve the object until you are finished creating the **leadId** field.
 {:.warning}
 ![test image]({{ site.baseurl }}/img/2700/instance_fields_fields.jpg)
 
