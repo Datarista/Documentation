@@ -49,30 +49,51 @@
     #nav {
         width: 100%;
         box-sizing: border-box;
+        ul {
+          display: none;
+          &.open{
+              display: block;
+          }
+        }
         > li {
             border-bottom: 1px solid rgba($gray, .3);
             a {
-                display: block;
+                display: flex;
                 padding: 10px 20px;
                 line-height: 1;
                 border-bottom: 1px solid rgba($gray, .2);
                 background: rgba($grayblue, .5);
-                &:before {
-                    content: counters(nested-counter, ".") " ";
-                    font-size: 0;
-                }
                 &:hover {
                     background: rgba($gray, .1);
                 }
+                &.toggleMenu {
+                    span {
+                        width: 0;
+                        height: 0;
+                        margin-right: 10px;
+                        margin-top: 0px;
+                        display: inline;
+                        border-top: 6px solid transparent;
+                        border-bottom: 6px solid transparent;
+                        border-left: 6px solid rgba($gray, .5);
+                    }
+                    &.arrow-down {
+                        margin-top: 2px;
+                        border-left: 6px solid transparent;
+                        border-right: 6px solid transparent;
+                        border-top: 8px solid rgba($gray, .5);
+                    }
+                }
             }
             li {
-                display: none;
-                &.open{
-                    display: block;
-                }
+                display: block;
                 a {
                     padding: 8px 30px;
                     background: rgba($lightgray, .2);
+                    &:before {
+                        content: counters(nested-counter, ".") " ";
+                        font-size: 0;
+                    }
                 }
                 li {
                     a {
@@ -90,6 +111,7 @@
             > a {
                 &:before {
                     font-size: 1em;
+                    padding-right: 5px;
                 }
             }
         }
