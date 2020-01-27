@@ -2,7 +2,7 @@ body{
     font:{
         family: $helvetica;
         weight: $light;
-        size: 18px;
+        size: 16px;
     }
     line-height: 1.4;
     background: $grayblue;
@@ -90,18 +90,80 @@ h1 {
 
 blockquote{
     background: #f7f7f7;
-    border-left: 10px solid $darkgray;
-    margin: 10px 10px 10px 0px;
+    //border-left: 10px solid $darkgray;
+    margin: 30px 10px 10px 0px;
     padding: 0.7em 10px;
     quotes: "\201C""\201D""\2018""\2019";
+    border-radius: 5px;
+}
+
+.tip{
+    border: 1px solid #6ab0de;
+    background: #E6F3F9;
+}
+
+.tip::before{
+    display: inline-block;
+    left: 20px;
+    top: 23px;
+    right: 10px;
+    content: "i";
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 17px;
+    height: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    margin: 5px;
+    background: #6ab0de;
 }
 
 .warning{
-    border-left: 10px solid #FFCC00;
+    border: 1px solid #FFCC00;
+    background: #FFF5D0;
+}
+
+.warning::before{
+    display: inline-block;
+    left: 20px;
+    top: 23px;
+    right: 10px;
+    content: "!";
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 17px;
+    height: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    margin: 5px;
+    background: #FFCC00;
 }
 
 .alert{
-    border-left: 10px solid #B33A3A;
+    border: 1px solid #B33A3A;
+    background: #F8EDED;
+}
+
+.alert::before{
+    display: inline-block;
+    left: 20px;
+    top: 23px;
+    right: 10px;
+    content: "!";
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 17px;
+    height: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    margin: 5px;
+    background: #B33A3A;
 }
 
 blockquote p {
@@ -213,11 +275,13 @@ a{
 
 img{
     display: block;
-    max-width: 100%;
+    max-width: 90%;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     padding: 0px 4px 10px 4px;
-    border: 2px solid #b7b7b7;
+    border: 1px solid #DEDEDE;
+    border-radius: 1%;
     box-shadow: 0 5px 10px #b7b7b7;
 }
 
