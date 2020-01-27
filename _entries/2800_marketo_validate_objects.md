@@ -12,7 +12,6 @@ title: Validate Marketo Custom Objects in Customer Portal
 This tool will compare your Marketo configuration to the expected configuration.  
 Correctly configured fields and objects will display with a green checkmark and success message.   
 Incorrectly configured fields and objects will display with a red X and error message.
-
 ![test image]({{ site.baseurl }}/img/2800/field_validation.jpg)
 
 >The Marketo integration will not work correctly until all custom objects and leadId fields are correctly configured.  The leadId field is required, but all other fields are optional.  

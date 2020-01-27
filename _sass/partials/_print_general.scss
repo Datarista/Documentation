@@ -1,0 +1,38 @@
+header{
+    background: none;
+}
+
+body{
+    font:{
+        family: $helvetica;
+        weight: $light;
+        size: 12px;
+    }
+    line-height: 1.4;
+    color: $black;
+    background: none;
+    border: none;
+}
+
+div{
+  background: none;
+  border: none;
+}
+
+.overview{
+  display: none;
+}
+
+.content{
+    width: 100%;
+}
+
+blockquote{
+    background: none;
+    margin: 10px 0px;
+    border: none;
+}
+
+img{
+  border: none;
+}

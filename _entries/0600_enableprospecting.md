@@ -9,5 +9,4 @@ title: Enable the Prospecting Tab
 **Click** the **Edit** button.  
 **Check** both **Available** and **Visible**  
 **Click** the **Save** button.
-
 ![Permission Set Quick Find]({{ site.baseurl }}/img/600/prospecting_tab.png)  

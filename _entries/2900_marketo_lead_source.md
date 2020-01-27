@@ -6,7 +6,7 @@ number: 2900
 title: Set up Lead Source with a Triggered Campaign (Optional)
 ---
 >This configuration is **optional**.  Please talk to your data provider to see if this feature is available for your integration.  
-{:.warning}
+{:.tip}
 
 >Assigning a custom lead source value to records created by the Marketo integration is a recommended best practice.  A few of the benefits are:  
 

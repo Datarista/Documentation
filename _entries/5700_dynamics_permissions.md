@@ -3,7 +3,7 @@ sectionclass: h2
 sectionid: dynamics_permissions
 parent-id: dynamics_documentation
 number: 5700
-title: Configure Permissions 
+title: Configure Permissions
 ---
 > To give other users permission to access the integration, log in to the [Azure portal](https://portal.azure.com/) as an administrator.
 
@@ -21,5 +21,4 @@ title: Configure Permissions
 ![App Permissions]({{ site.baseurl }}/img/5700/dynamics_azure_app_perms1.png)
 
 > When complete, several permissions should be listed under "Admin consent":
-
 ![Admin Permissions]({{ site.baseurl }}/img/5700/dynamics_azure_app_perms2.png)
