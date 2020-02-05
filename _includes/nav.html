@@ -2,9 +2,12 @@
     {% assign level-1 = site.entries | where: "sectionclass", "h1" | sort: "number"%}
     {% for entry in level-1 %}
     <li {% if entry.is-parent or forloop.first %} class="{% if entry.is-parent %}parent{% endif %}{% if forloop.first %} current{% endif %}"{% endif %}>
-        <a href="#{{ entry.sectionid }}" class="toggleMenu">{{ entry.title }}</a>
+        <a href="#{{ entry.sectionid }}" class="toggleMenu">
+            <span class="{% if forloop.first %}arrow-down{% endif %}"> </span>
+            {{ entry.title }}
+        </a>
         {% if entry.is-parent %}
-            <ul>
+            <ul class="{% if forloop.first %}open{% endif %}">
                 {% assign level-2 = site.entries | where: "parent-id", entry.sectionid | sort: "number" %}
                 {% for child in level-2 %}
                     <li {% if child.is-parent %}class="parent"{% endif %}>
